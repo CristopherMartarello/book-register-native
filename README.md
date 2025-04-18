@@ -31,16 +31,18 @@ Base do aplicativo mobile com uso de componentes como View, Text, FlatList, Imag
 Facilita o desenvolvimento e o acesso a APIs nativas como a galeria de imagens (expo-image-picker).
 #### 🧩 Redux Toolkit
 Gerencia o estado global da quantidade total de livros cadastrados:
-
 - Arquivo: redux/bookSlice.js
-
   - Ações: incrementar, decrementar, resetar
-
 - Arquivo: redux/store.js
-
   - Configuração da store Redux
-
 - Usado em: CadastroLivros.js e WelcomeScreen.js
-
   - Acesso via useDispatch() e useSelector()
+#### 🎨 Context API
+- Gerencia o tema claro/escuro da aplicação.
+  - Arquivo: context/TemaContext.js
+- TemaProvider e hook useTema
+  - Usado em:
+    - WelcomeScreen.js
+    - CadastroLivros.js
+    - Configuracoes.js
 
