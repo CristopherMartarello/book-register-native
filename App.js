@@ -7,6 +7,7 @@ import { store } from './redux/store';
 
 import CadastroLivros from './screens/CadastroLivros';
 import Configuracoes from './screens/Configuracoes';
+import WelcomeScreen from './screens/WelcomeScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -15,7 +16,8 @@ export default function App() {
     <Provider store={store}>
       <TemaProvider>
         <NavigationContainer>
-          <Stack.Navigator initialRouteName="CadastroLivros">
+          <Stack.Navigator initialRouteName="WelcomeScreen">
+            <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} options={{ title: 'MyLibrary' }} />
             <Stack.Screen name="CadastroLivros" component={CadastroLivros} options={{ title: 'Cadastro de Livros' }} />
             <Stack.Screen name="Configuracoes" component={Configuracoes} options={{ title: 'Configurações' }} />
           </Stack.Navigator>

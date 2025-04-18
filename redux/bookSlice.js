@@ -12,8 +12,11 @@ export const bookSlice = createSlice({
     decrementar: (state) => {
       if (state.total > 0) state.total -= 1;
     },
+    resetar: (state) => {
+      state.total = 0;
+    },
   },
 });
 
-export const { incrementar, decrementar } = bookSlice.actions;
+export const { incrementar, decrementar, resetar } = bookSlice.actions;
 export default bookSlice.reducer;
