@@ -32,15 +32,15 @@ Facilita o desenvolvimento e o acesso a APIs nativas como a galeria de imagens (
 #### 🧩 Redux Toolkit
 Gerencia o estado global da quantidade total de livros cadastrados:
 
--Arquivo: redux/bookSlice.js
+- Arquivo: redux/bookSlice.js
 
---Ações: incrementar, decrementar, resetar
+  - Ações: incrementar, decrementar, resetar
 
--Arquivo: redux/store.js
+- Arquivo: redux/store.js
 
---Configuração da store Redux
+  - Configuração da store Redux
 
--Usado em: CadastroLivros.js e WelcomeScreen.js
+- Usado em: CadastroLivros.js e WelcomeScreen.js
 
---Acesso via useDispatch() e useSelector()
+  - Acesso via useDispatch() e useSelector()
 
