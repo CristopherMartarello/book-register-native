@@ -53,16 +53,16 @@ Gerencia o estado global da quantidade total de livros cadastrados:
   - useTema para acessar o tema atual.
 
 ### 5. 📲 Funcionalidades
-✅ Tela de boas-vindas com imagem e botão “Começar”
-✅ Cadastro de livros com:
+- ✅ Tela de boas-vindas com imagem e botão “Começar”
+- ✅ Cadastro de livros com:
   - Nome
   - Editora
   - Autor
   - Gênero
   - Imagem da galeria
-✅ Edição e exclusão de livros
-✅ Contador global de livros com Redux
-✅ Modal personalizado para cadastro
-✅ Tema claro/escuro com Context API
-✅ Navegação entre telas com React Navigation
-✅ Responsividade e usabilidade mobile
+- ✅ Edição e exclusão de livros
+- ✅ Contador global de livros com Redux
+- ✅ Modal personalizado para cadastro
+- ✅ Tema claro/escuro com Context API
+- ✅ Navegação entre telas com React Navigation
+- ✅ Responsividade e usabilidade mobile
