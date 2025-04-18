@@ -45,4 +45,9 @@ Gerencia o estado global da quantidade total de livros cadastrados:
     - WelcomeScreen.js
     - CadastroLivros.js
     - Configuracoes.js
-
+#### ⚙️ React Hooks
+- Utilizados em todo o projeto:
+  - useState para controle de inputs, lista de livros, modais, imagem selecionada, etc.
+  - useEffect (se necessário para comportamentos reativos).
+  - useDispatch / useSelector para interações com Redux.
+  - useTema para acessar o tema atual.
