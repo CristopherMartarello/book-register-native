@@ -15,13 +15,13 @@ cd mylibrary
 
 ### 2. Instalar as dependências
 ```bash
-node -v   // Deve retornar a versão do Node.js, caso contrário baixar em: https://nodejs.org/pt
-npm install   // Para instalar as dependências
+node -v   # Deve retornar a versão do Node.js, caso contrário baixar em: https://nodejs.org/pt
+npm install   # Para instalar as dependências
 ```
 
 ### 3. Rodar com Expo
 ```bash
-npx expo start
+npx expo start # Iniciar a aplicação Expo
 ```
 
 ### 4. 🧠 Tecnologias e Recursos Utilizados
